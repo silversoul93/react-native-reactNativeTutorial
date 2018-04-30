@@ -34,4 +34,4 @@ export default class BlinkApp extends Component {
     }
 }
 
-AppRegistry.registerComponent('reactNativeTutorial', BlinkApp);
+AppRegistry.registerComponent('reactNativeTutorial', () => BlinkApp);
