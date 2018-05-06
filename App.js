@@ -5,10 +5,11 @@ import Info from './src/components/info/info';
 import LotsOfGreetings from './src/components/greetings/greetings';
 import BlinkApp from './src/components/blink/blink';
 import Flex from './src/components/flex/flex';
+import Pizza from './src/components/pizza/pizzaTranslator';
 
 const App = TabNavigator({
   Home: {
-    screen: BlinkApp,
+    screen: Pizza,
   },
   Info: {
     screen: Info
