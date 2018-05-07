@@ -8,6 +8,7 @@ import Flex from './src/components/flex/flex';
 import Pizza from './src/components/pizza/pizzaTranslator';
 import Touchables from './src/components/touchables/touchables';
 import IScrolledDownAndWhatHappenedNextShockedMe from './src/components/scroll/scroll';
+import FlatListBasics from './src/components/lists/lists';
 
 const App = TabNavigator({
   H: {
@@ -22,8 +23,11 @@ const App = TabNavigator({
   B: {
     screen: BlinkApp
   },
-  Flex: {
+  F: {
     screen: Flex
+  },
+  L: {
+    screen: FlatListBasics
   },
   P: {
     screen: Pizza

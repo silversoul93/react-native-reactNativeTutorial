@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { AppRegistry, ScrollView, Image, Text } from 'react-native';
+import { AppRegistry, ScrollView, Image, Text, View } from 'react-native';
 
 export default class IScrolledDownAndWhatHappenedNextShockedMe extends Component {
     render() {
         // NB. nelle Image, la source NON puo' essere un icon, ovvero un file .ico
+        // Su Android non si puo' avere lo scroll bidirezionale, verticale O orizzontale. Su IoS si puo'
         return (
             <ScrollView>
                 <Text style={{ fontSize: 96 }}>Scroll me plz</Text>
