@@ -4,30 +4,35 @@ import Home from './src/components/home/home';
 import Info from './src/components/info/info';
 import LotsOfGreetings from './src/components/greetings/greetings';
 import BlinkApp from './src/components/blink/blink';
-<<<<<<< HEAD
-import Styles from './src/components/styleComponent/styles'
-=======
 import Flex from './src/components/flex/flex';
 import Pizza from './src/components/pizza/pizzaTranslator';
->>>>>>> 357223bb72cf99edd7cd90920d08046d0302c0b7
+import Touchables from './src/components/touchables/touchables';
+import IScrolledDownAndWhatHappenedNextShockedMe from './src/components/scroll/scroll';
 
 const App = TabNavigator({
-  Home: {
-    screen: Pizza,
+  H: {
+    screen: Home,
   },
-  Info: {
+  I: {
     screen: Info
   },
-  Greetings: {
+  G: {
     screen: LotsOfGreetings
   },
-<<<<<<< HEAD
-  Styles: {
-    screen: Styles
-=======
+  B: {
+    screen: BlinkApp
+  },
   Flex: {
     screen: Flex
->>>>>>> 357223bb72cf99edd7cd90920d08046d0302c0b7
+  },
+  P: {
+    screen: Pizza
+  },
+  S: {
+    screen: IScrolledDownAndWhatHappenedNextShockedMe
+  },
+  T: {
+    screen: Touchables
   }
 });
 
